@@ -3,25 +3,26 @@ import '../assets/styles.css';
 import CartWidget from "../CartWidget/CartWidget";
 
 
-const NavBar = ({ logo, menuItem }) => {
+const NavBar = ({ logo }) => {
     return (
 
         <header className="header">
                                     
-            <nav class="navbar navbar-dark bg-dark">
+            <nav className="navbar navbar-dark bg-dark">
 
-                <div class="container-fluid navBar50">
+                <div className="container-fluid navBar50">
                     
                     <div > 
-                    <a class="navbar-brand noFlex" href="#">                        
-                        <img src="logo_nav_bty.webp" alt={logo} width="110" height="40" id="navLogo" class="d-inline-block"/>  
+                    <a className="navbar-brand noFlex" href="">                        
+                        <img src="logo_nav_bty.webp" alt={logo} width="110" height="40" id="navLogo" className="d-inline-block"/>  
                     </a>
-                    <a class="navbar-brand noFlex" href=""> TT23 - Tu paleta a medida</a>
+                    <a className="navbar-brand noFlex" href=""> TT23 - Tu paleta a medida</a>
+                    
                     </div>
 
                 </div>
 
-                <div class="align-top paddingRight">
+                <div className="align-top paddingRight">
 
                     <input type="checkbox" className="side-menu" id="side-menu" />
                     
@@ -31,10 +32,10 @@ const NavBar = ({ logo, menuItem }) => {
 
                     <nav className="nav">
                         <ul className="menu">
-                            <li><a href="#">Quiénes Somos</a></li>
-                            <li><a href="#">Productos</a></li>
-                            <li><a href="#">Categorías</a></li>
-                            <li><a href="#">Contactos</a></li>
+                            <li><a href="">Quiénes Somos</a></li>
+                            <li><a href="">Productos</a></li>
+                            <li><a href="">Categorías</a></li>
+                            <li><a href="">Contactos</a></li>
                         </ul>
                     </nav> 
 
