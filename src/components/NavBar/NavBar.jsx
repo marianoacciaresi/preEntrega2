@@ -32,10 +32,10 @@ const NavBar = ({ logo }) => {
 
                     <nav className="nav">
                         <ul className="menu">
-                            <li><a href="">Quiénes Somos</a></li>
-                            <li><a href="">Productos</a></li>
+                            <li><a href="#">Quiénes Somos</a></li>
+                            <li><a href="#">Productos</a></li>
                             {/* <li><a href="">Categorías</a></li> */}
-                            <li><a href="">Contactos</a></li>
+                            <li><a href="#">Contactos</a></li>
                         </ul>
                     </nav> 
 
