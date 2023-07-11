@@ -10,5 +10,14 @@ export const API_URLS = {
             }
         }
     },
+    CATEGORIES: {
+        url: `${BASE_URL}/categories`,
+        config: {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+            }
+        }
+    }
 
 }

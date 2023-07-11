@@ -3,7 +3,7 @@
 }
 
 .header {
-    background-color: #212121;
+    background-color: rgba(var(--mdb-dark-rgb),var(--mdb-bg-opacity))!important;
     box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.3);
     position: sticky;
     top: 0;
